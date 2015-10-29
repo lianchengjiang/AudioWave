@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7582857F1BE0CF5A00B5D5D3 /* LcAudioWave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LcAudioWave.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7582857F1BE0CF5A00B5D5D3 /* LcAudioWaveSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LcAudioWaveSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		758285831BE0CF5A00B5D5D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		758285851BE0CF5A00B5D5D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		758285861BE0CF5A00B5D5D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		758285761BE0CF5A00B5D5D3 = {
 			isa = PBXGroup;
 			children = (
-				758285811BE0CF5A00B5D5D3 /* LcAudioWave */,
+				758285811BE0CF5A00B5D5D3 /* LcAudioWaveSample */,
 				758285801BE0CF5A00B5D5D3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,12 +53,12 @@
 		758285801BE0CF5A00B5D5D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7582857F1BE0CF5A00B5D5D3 /* LcAudioWave.app */,
+				7582857F1BE0CF5A00B5D5D3 /* LcAudioWaveSample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		758285811BE0CF5A00B5D5D3 /* LcAudioWave */ = {
+		758285811BE0CF5A00B5D5D3 /* LcAudioWaveSample */ = {
 			isa = PBXGroup;
 			children = (
 				75B2627F1BE22E9200E20757 /* 1.mov */,
@@ -73,6 +73,7 @@
 				758285931BE0CF5A00B5D5D3 /* Info.plist */,
 				758285821BE0CF5A00B5D5D3 /* Supporting Files */,
 			);
+			name = LcAudioWaveSample;
 			path = LcAudioWave;
 			sourceTree = "<group>";
 		};
@@ -87,9 +88,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7582857E1BE0CF5A00B5D5D3 /* LcAudioWave */ = {
+		7582857E1BE0CF5A00B5D5D3 /* LcAudioWaveSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 758285961BE0CF5A00B5D5D3 /* Build configuration list for PBXNativeTarget "LcAudioWave" */;
+			buildConfigurationList = 758285961BE0CF5A00B5D5D3 /* Build configuration list for PBXNativeTarget "LcAudioWaveSample" */;
 			buildPhases = (
 				7582857B1BE0CF5A00B5D5D3 /* Sources */,
 				7582857C1BE0CF5A00B5D5D3 /* Frameworks */,
@@ -99,9 +100,9 @@
 			);
 			dependencies = (
 			);
-			name = LcAudioWave;
+			name = LcAudioWaveSample;
 			productName = LcAudioWave;
-			productReference = 7582857F1BE0CF5A00B5D5D3 /* LcAudioWave.app */;
+			productReference = 7582857F1BE0CF5A00B5D5D3 /* LcAudioWaveSample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7582857A1BE0CF5A00B5D5D3 /* Build configuration list for PBXProject "LcAudioWave" */;
+			buildConfigurationList = 7582857A1BE0CF5A00B5D5D3 /* Build configuration list for PBXProject "LcAudioWaveSample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -131,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7582857E1BE0CF5A00B5D5D3 /* LcAudioWave */,
+				7582857E1BE0CF5A00B5D5D3 /* LcAudioWaveSample */,
 			);
 		};
 /* End PBXProject section */
@@ -270,7 +271,7 @@
 				INFOPLIST_FILE = LcAudioWave/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liancheng.LcAudioWave;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LcAudioWaveSample;
 			};
 			name = Debug;
 		};
@@ -281,14 +282,14 @@
 				INFOPLIST_FILE = LcAudioWave/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liancheng.LcAudioWave;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LcAudioWaveSample;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7582857A1BE0CF5A00B5D5D3 /* Build configuration list for PBXProject "LcAudioWave" */ = {
+		7582857A1BE0CF5A00B5D5D3 /* Build configuration list for PBXProject "LcAudioWaveSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				758285941BE0CF5A00B5D5D3 /* Debug */,
@@ -297,7 +298,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		758285961BE0CF5A00B5D5D3 /* Build configuration list for PBXNativeTarget "LcAudioWave" */ = {
+		758285961BE0CF5A00B5D5D3 /* Build configuration list for PBXNativeTarget "LcAudioWaveSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				758285971BE0CF5A00B5D5D3 /* Debug */,

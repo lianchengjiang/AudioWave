@@ -1,3 +1,5 @@
 LcAudioWave.xcodeproj/project.xcworkspace
 LcAudioWave.xcodeproj/xcuserdata
 .gitignore
+xcuserdata
+project.xcworkspace
