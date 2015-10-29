@@ -13,6 +13,7 @@
 		7582858D1BE0CF5A00B5D5D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7582858B1BE0CF5A00B5D5D3 /* Main.storyboard */; };
 		7582858F1BE0CF5A00B5D5D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7582858E1BE0CF5A00B5D5D3 /* Assets.xcassets */; };
 		758285921BE0CF5A00B5D5D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758285901BE0CF5A00B5D5D3 /* LaunchScreen.storyboard */; };
+		75B262801BE22E9200E20757 /* 1.mov in Resources */ = {isa = PBXBuildFile; fileRef = 75B2627F1BE22E9200E20757 /* 1.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		758285911BE0CF5A00B5D5D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		758285931BE0CF5A00B5D5D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		758285991BE0D01C00B5D5D3 /* CheckMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckMacro.h; sourceTree = "<group>"; };
+		75B2627F1BE22E9200E20757 /* 1.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 1.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		758285811BE0CF5A00B5D5D3 /* LcAudioWave */ = {
 			isa = PBXGroup;
 			children = (
+				75B2627F1BE22E9200E20757 /* 1.mov */,
 				758285851BE0CF5A00B5D5D3 /* AppDelegate.h */,
 				758285861BE0CF5A00B5D5D3 /* AppDelegate.m */,
 				758285991BE0D01C00B5D5D3 /* CheckMacro.h */,
@@ -140,6 +143,7 @@
 			files = (
 				758285921BE0CF5A00B5D5D3 /* LaunchScreen.storyboard in Resources */,
 				7582858F1BE0CF5A00B5D5D3 /* Assets.xcassets in Resources */,
+				75B262801BE22E9200E20757 /* 1.mov in Resources */,
 				7582858D1BE0CF5A00B5D5D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +304,7 @@
 				758285981BE0CF5A00B5D5D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
