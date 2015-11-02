@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  LcAudioWave
+//  LCAudioWaveSample
 //
-//  Created by jiangliancheng on 15/10/28.
+//  Created by jiangliancheng on 15/11/2.
 //  Copyright © 2015年 jiangliancheng. All rights reserved.
 //
 
